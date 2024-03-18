@@ -239,3 +239,43 @@ main {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer */
+
+.footer{
+    display: flex;
+    padding: 130px 200px;
+    /* justify-content: space-between; */
+    gap: 100px;
+    background: #FFF8F3;
+}
+
+.footer .section-description{
+    width: 562px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.footer a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+input{
+    display: block;
+}
+
+
+input[type="text"],input[type="email"],textarea{
+    margin-top: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+}
+
+input[type="submit"]{
+    margin-top: 24px;
+}
+
